@@ -28,7 +28,7 @@ You will need the PI Connector for UFL and a PI System (Including PI Data archiv
 - You can now see the PI Points created in the PI Data Archive, such as the temperature, weather status, and humidity. 
  
 # Notes the Parsing of JSON data
-The original JSON data file arrives unformatted and it is not straightforward for the Connector to parse it. We have several JSON elements, or bike stations, on one continuous line. 
+The original JSON data file arrives unformatted and it is not straightforward for the Connector to parse it. 
 `{"coord":{"lon":-73.59,"lat":45.51},"sys":{"type":1,"id":3829,"message":0.0052,"country":"CA","sunrise":1472206191,"sunset":1472254907},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":26.1,"pressure":1014,"humidity":73,"temp_min":25,"temp_max":27.78},"visibility":48279,"wind":{"speed":6.7,"deg":260,"gust":11.8},"clouds":{"all":20},"dt":1472225914,"id":6077243,"name":"Montreal","cod":200}`
 
 Using the Pretty Print Method, we can split this up into a much more usable form:
