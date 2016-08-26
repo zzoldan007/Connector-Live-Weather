@@ -5,6 +5,8 @@ This sample will show how to use the PI Connector for UFL to get and parse live 
 # Contents 
 - A Python script which is designed to get the publicly available data and send it to the Connector’s REST endpoint. 
 - A sample INI file which shows how to parse the JSON file
+- A sample data file from the Connector's directory in %programdata%
+- A BAT file designed for easy deployment of the Python script with Windows Task Scheduler.
  
 # Getting Started
 You will need the PI Connector for UFL and a PI System (Including PI Data archive and PI AF). The INI file is used to parse weather data. In this case, we will be looking at the [Current Weather](http://openweathermap.org/current) option. 
